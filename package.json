@@ -1,0 +1,24 @@
+{
+  "name": "mercearia_frontend",
+  "version": "1.0.0",
+  "description": "Projeto feito na disciplina de Programação Web, matéria do 5º Semestre do curso de engenharia da computação - IFMT, usando django, rest, javascript e banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasLimaT/Mercearia_Frontend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasLimaT/Mercearia_Frontend/issues"
+  },
+  "homepage": "https://github.com/LucasLimaT/Mercearia_Frontend#readme",
+  "dependencies": {
+    "next": "^15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
