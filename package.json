@@ -4,7 +4,7 @@
   "description": "Projeto feito na disciplina de Programação Web, matéria do 5º Semestre do curso de engenharia da computação - IFMT, usando django, rest, javascript e banco de dados",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev --turbopack"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LucasLimaT/Mercearia_Frontend#readme",
   "dependencies": {
+    "mercearia_frontend": "file:",
     "next": "^15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
