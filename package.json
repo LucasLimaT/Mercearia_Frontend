@@ -4,7 +4,9 @@
   "description": "Projeto feito na disciplina de Programação Web, matéria do 5º Semestre do curso de engenharia da computação - IFMT, usando django, rest, javascript e banco de dados",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev --turbopack"
+    "dev": "next dev --turbopack",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
     "next": "^15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
